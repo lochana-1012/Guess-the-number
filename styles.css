@@ -1,0 +1,122 @@
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body{
+    background-color: rgb(9, 133, 133);
+    background-image: url(./img/teal-370129__340.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    
+}
+header{
+    display: flex;
+    gap: 1rem;
+    background-color: #ffffff;
+    justify-content: space-between;
+    width: 48%;
+    padding: 0.9rem;
+    border-radius: 9px;
+    box-shadow: 3px 2px 2px #ffffff;
+    
+   
+}
+span{
+    color: teal;
+}
+.card{
+    background-color: rgb(245, 252, 255);
+    width: 40rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: auto;
+    border-radius: 9px;
+    box-shadow: 2px 3px 4px rgb(45, 223, 223);
+    background-image: url(./img/images\ \(1\).jfif);
+    background-position: center;
+    background-size: cover;
+}
+hr{
+    width: 200px;
+    border: 1px solid teal;
+}
+h1{
+    color: rgb(7, 70, 70);
+    
+}
+p{
+    font-size: 30px;
+}
+.input-container{
+    border: 1px solid teal;
+    box-shadow: 1px 2px 2px rgb(17, 68, 68);
+}
+.btn{
+    display: flex;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid teal;
+    font-size: 18px;
+    color: rgb(4, 97, 97);
+}
+.btn:hover{
+    background-color: teal;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 7px;
+    width: 100px;
+    border-radius: 9px;
+    border: 3px rgb(15, 53, 53);
+   justify-content: center;
+
+}
+.number-name{
+    padding: 5px;
+
+}
+.guess-number{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.animation{
+    background-color: teal;
+    color: aliceblue;
+    border-radius: 90px;
+ background-image: url(./img/images.jfif);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 3px 3px 3px rgb(159, 228, 228);
+}
+
+strong{
+
+    color: rgb(9, 87, 87);
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 18px;
+    font-size: 21px;
+}
+.restart{
+    display: none;
+}
+@media only screen and (max-width: 375px) {
+  
+ header{
+    width: 300px;
+ }
+ .card{
+    width: 300px;
+ }
+}
